@@ -184,6 +184,11 @@ main {
   margin: 5px 0;
 }
 
+#google-logo-extend {
+  font-family: sans-serif;
+  font-size: 3rem;
+}
+
 #footer-links {
   margin-left: 150px;
 }
