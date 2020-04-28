@@ -9,3 +9,24 @@
   --google-border: #00000031;
   --google-gray: #0000001A;
 }
+
+#search-bar:focus-within , #search-bar:hover {
+  box-shadow: 2px 2px 10px var(--google-shadow);
+}
+
+#sign-in-btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px !important;
+  margin-right: 30px;
+  box-sizing: border-box;
+  background-color: var(--google-blue);
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+#sign-in-btn:hover {
+  text-decoration: none;
+  box-shadow: 1px 1px 2px var(--google-shadow);
+}

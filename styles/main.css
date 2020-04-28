@@ -21,22 +21,6 @@ a {
   padding: 0px 15px;
 }
 
-#sign-in-btn {
-  display: inline-block;
-  padding: 10px !important;
-  margin-right: 30px;
-  box-sizing: border-box;
-  background-color: var(--google-blue);
-  color: white;
-  font-weight: bold;
-  border-radius: 2px;
-}
-
-#sign-in-btn:hover {
-  text-decoration: none;
-  box-shadow: 1px 1px 2px var(--google-shadow);
-}
-
 #main-content {
   height: 100%;
   width: 100%;
