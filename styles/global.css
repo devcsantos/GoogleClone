@@ -1,0 +1,11 @@
+:root {
+  font-family: Arial;
+
+  --navbar-color: white;
+  --bg-color: white;
+  --google-black: #00000091;
+  --google-blue: #4285F4;
+  --google-shadow: #0000001F;
+  --google-border: #00000031;
+  --google-gray: #0000001A;
+}
