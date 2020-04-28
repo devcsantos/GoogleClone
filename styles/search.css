@@ -5,6 +5,10 @@
   padding: 0px;
 }
 
+h2 {
+  font-size: 1.25rem;
+}
+
 #navbar {
   position: absolute;
   display: flex;
@@ -169,10 +173,15 @@ main {
   line-height: 50px;
 }
 
-@media only screen and (min-height: 1500px) {
-  #footer {
-    position: fixed;
-  }
+#related-searches {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 120px;
+}
+
+#related-searches a {
+  margin: 5px 0;
 }
 
 #footer-links {
@@ -187,4 +196,10 @@ main {
 
 .footer-link:hover {
   color: black;
+}
+
+@media only screen and (min-height: 1700px) {
+  #footer {
+    position: fixed;
+  }
 }
