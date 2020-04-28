@@ -68,11 +68,6 @@ a {
   flex-direction: flex-start;
 }
 
-
-#search-bar:focus-within , #search-bar:hover {
-  box-shadow: 2px 2px 10px var(--google-shadow);
-}
-
 svg.random-logo {
   opacity: 0.2;
 }
@@ -115,8 +110,9 @@ svg.random-logo {
 .header-footer-before {
   float: left;
   text-align: left;
-  padding-top: 15px;
+  padding-top: 25px;
   width: 50%;
+  height: 100%;
 }
 
 .header-footer-after {
@@ -124,6 +120,7 @@ svg.random-logo {
   text-align: right;
   padding-top: 15px;
   width: 50%;
+  height: 100%;
 }
 
 .header-footer-before a:hover {
