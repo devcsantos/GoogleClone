@@ -3,6 +3,10 @@
   position: relative;
   margin: 0px;
   padding: 0px;
+  --google-logo-blue: #4285F4;
+  --google-logo-red:#EA4335;
+  --google-logo-yellow:#FBBC05;
+  --google-logo-green: #34A853;
 }
 
 h2 {
@@ -45,7 +49,6 @@ h2 {
 
 #search-bar {
   box-sizing: border-box;
-  width: 800px;
   border-style: solid;
   border-width: 1px;
   border-color: var(--google-border);
@@ -55,6 +58,8 @@ h2 {
   align-content: center;
   padding: 10px 0;
   margin: 10px 30px;
+  min-width: 800px;
+  max-width: 800px;
 }
 
 #search-input {
@@ -70,6 +75,7 @@ h2 {
 }
 
 #sign-in-btn {
+  min-width: 80px;
   margin-left: auto;
   align-self: center;
 }
@@ -185,8 +191,76 @@ main {
 }
 
 #google-logo-extend {
+  display: flex;
   font-family: sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
+  padding-bottom: 25px;
+  margin: 0px 100px;
+}
+
+#google-logo-extend a {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+#first { order: 1;}
+#second { order: 2;}
+#fourth { order: 4;}
+#fifth { order: 5;}
+#sixth { order: 6;}
+#last {
+  order: 7;
+  padding-left: 20px !important;
+}
+
+.google-logo-blue {
+  color: var(--google-logo-blue);
+}
+
+.google-logo-blue span {
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.google-logo-red {
+  color: var(--google-logo-red);
+}
+
+.google-logo-red span {
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.google-logo-yellow {
+  color: var(--google-logo-yellow);
+  text-decoration: none;
+  order: 3;
+}
+
+.google-logo-yellow span {
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.google-logo-yellow:hover {
+  color: var(--google-logo-red);
+}
+
+.google-logo-yellow:hover ~ #second.google-logo-red {
+  color: var(--google-logo-yellow);
+}
+
+.google-logo-green {
+  color: var(--google-logo-green);
 }
 
 #footer-links {
@@ -206,5 +280,5 @@ main {
 @media only screen and (min-height: 1700px) {
   #footer {
     position: fixed;
-  }
+  } 
 }
